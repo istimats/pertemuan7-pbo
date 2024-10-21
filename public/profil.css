@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    max-width: 1200px;
+}
+
+/* Header */
+header {
+    background-color: #0077b6;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.cta-btn {
+    
+    color: #fff;
+    font-size: 30px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.auth li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.auth li a{
+    
+    color: #fff;
+    font-size: 30px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.profile-container {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.profile-info {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    text-align: left;
+}
+
+.profile-info p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.profile-info strong {
+    font-weight: bold;
+    color: #0077b6;
+}
+.btn{
+    background-color: #0077b6;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+    margin-left: 40%;
+
+}
+.btn a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn:hover{
+    background-color: #0056b3;
+}
